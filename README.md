@@ -9,7 +9,7 @@ research decision for each intervention event.
 
 ## Publication and privacy boundary
 
-I have included the [published master's
+I have included the [submitted master's
 thesis](docs/kaan-gueney-keklikci-masters-thesis.pdf) here. It remains all rights
 reserved; see the [thesis rights notice](docs/thesis-rights.md).
 
