@@ -9,9 +9,9 @@ research decision for each intervention event.
 
 ## Publication and privacy boundary
 
-The [published master's thesis](docs/kaan-gueney-keklikci-masters-thesis.pdf) is
-included with the author's permission and remains all rights reserved. See the
-[thesis rights notice](docs/thesis-rights.md).
+I have included the [published master's
+thesis](docs/kaan-gueney-keklikci-masters-thesis.pdf) here. It remains all rights
+reserved; see the [thesis rights notice](docs/thesis-rights.md).
 
 This public repository excludes raw field data, vehicle identifiers,
 employer-specific signal names, calibrated parameters, empirical metrics, and

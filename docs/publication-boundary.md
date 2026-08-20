@@ -13,5 +13,3 @@ parameters used in the implementation.
 
 The only attached research document is the [published master's
 thesis](kaan-gueney-keklikci-masters-thesis.pdf), which remains all rights reserved.
-No pitch decks, signed documents, raw data, session artifacts, metrics PDFs, or
-employer templates are included.
