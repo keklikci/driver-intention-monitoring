@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="310" viewBox="0 0 900 310" role="img" aria-labelledby="title description">
+  <title id="title">DIM decision flow</title>
+  <desc id="description">Vehicle signals are classified by geometry and evaluated against speed-dependent thresholds before an event decision is emitted</desc>
+  <style>text{font-family:Arial,sans-serif;fill:#102a43}.box{fill:#eaf2f8;stroke:#2f80c0;stroke-width:2}.decision{fill:#fff3cd;stroke:#c88a00;stroke-width:2}.arrow{stroke:#52616b;stroke-width:2;marker-end:url(#arrow)}</style>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#52616b"/></marker></defs>
+  <rect class="box" x="30" y="105" width="150" height="70" rx="8"/><text x="105" y="134" text-anchor="middle" font-size="18">vehicle signals</text><text x="105" y="157" text-anchor="middle" font-size="14">speed and steering</text>
+  <line class="arrow" x1="180" y1="140" x2="250" y2="140"/>
+  <rect class="box" x="250" y="105" width="150" height="70" rx="8"/><text x="325" y="134" text-anchor="middle" font-size="18">geometry</text><text x="325" y="157" text-anchor="middle" font-size="14">straight or curve</text>
+  <line class="arrow" x1="400" y1="140" x2="470" y2="140"/>
+  <polygon class="decision" points="560,75 650,140 560,205 470,140"/><text x="560" y="133" text-anchor="middle" font-size="16">signals below</text><text x="560" y="155" text-anchor="middle" font-size="16">thresholds</text>
+  <line class="arrow" x1="650" y1="140" x2="725" y2="140"/>
+  <rect class="box" x="725" y="105" width="145" height="70" rx="8"/><text x="797" y="134" text-anchor="middle" font-size="18">DIM output</text><text x="797" y="157" text-anchor="middle" font-size="14">event suppression</text>
+  <text x="555" y="245" text-anchor="middle" font-size="14">thresholds interpolate by vehicle speed</text>
+</svg>

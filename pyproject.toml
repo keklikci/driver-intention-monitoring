@@ -1,0 +1,44 @@
+[project]
+name = "driver-intention-monitoring"
+version = "0.1.0"
+description = "Reproducible driver intention monitoring research implementation"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{ name = "Kaan Gueney Keklikci" }]
+license = { text = "MIT" }
+dependencies = [
+    "numpy>=1.26",
+    "pandas>=2.2",
+    "PyWavelets>=1.6",
+    "scikit-learn>=1.4",
+    "scipy>=1.12",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0",
+    "ruff>=0.6",
+]
+
+[build-system]
+requires = ["hatchling>=1.25"]
+build-backend = "hatchling.build"
+
+[tool.pytest.ini_options]
+addopts = "-ra"
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 88
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "N", "UP", "B", "SIM", "RUF"]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*.py" = ["S101"]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+line-ending = "lf"

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="280" viewBox="0 0 900 280" role="img" aria-labelledby="title description">
+  <title id="title">DIM input and output pipeline</title>
+  <desc id="description">A dataframe is classified and transformed before DIM returns a dataframe with an event-level decision</desc>
+  <style>text{font-family:Arial,sans-serif;fill:#102a43}.box{fill:#eaf2f8;stroke:#2f80c0;stroke-width:2}.arrow{stroke:#52616b;stroke-width:2;marker-end:url(#arrow)}</style>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#52616b"/></marker></defs>
+  <rect class="box" x="30" y="92" width="170" height="76" rx="8"/><text x="115" y="120" text-anchor="middle" font-size="18">drive dataframe</text><text x="115" y="145" text-anchor="middle" font-size="14">permitted local data</text>
+  <line class="arrow" x1="200" y1="130" x2="280" y2="130"/>
+  <rect class="box" x="280" y="92" width="160" height="76" rx="8"/><text x="360" y="120" text-anchor="middle" font-size="18">classification</text><text x="360" y="145" text-anchor="middle" font-size="14">curvature labels</text>
+  <line class="arrow" x1="440" y1="130" x2="520" y2="130"/>
+  <rect class="box" x="520" y="92" width="160" height="76" rx="8"/><text x="600" y="120" text-anchor="middle" font-size="18">DIM monitor</text><text x="600" y="145" text-anchor="middle" font-size="14">event decision</text>
+  <line class="arrow" x1="680" y1="130" x2="760" y2="130"/>
+  <rect class="box" x="760" y="92" width="110" height="76" rx="8"/><text x="815" y="120" text-anchor="middle" font-size="18">output</text><text x="815" y="145" text-anchor="middle" font-size="14">DIM column</text>
+</svg>
